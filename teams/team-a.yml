@@ -7,7 +7,7 @@ controls:
   scripts:
 team_settings:
   secrets:
-    - secret: "$FLEET_TEAM_A_ENROLL_SECRET"
+    - secret: $FLEET_TEAM_A_ENROLL_SECRET 
   features:
     enable_host_users: true
     enable_software_inventory: true
