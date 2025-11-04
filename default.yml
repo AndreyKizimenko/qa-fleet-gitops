@@ -14,10 +14,6 @@ agent_options:
       pack_delimiter: /
   overrides:
 labels:
-- description:
-  label_membership_type: dynamic
-  name: Dynamic
-  query: SELECT 1 FROM os_version WHERE major >= 13;
 org_settings:
   secrets:
   - secret: $FLEET_GLOBAL_ENROLL_SECRET # TODO: Add your enroll secrets here
