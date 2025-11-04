@@ -1,0 +1,14 @@
+name: Team B
+policies:
+queries:
+agent_options:
+  path: ../lib/agent-options.yml
+controls:
+  scripts:
+team_settings:
+  secrets:
+    - secret: "$FLEET_TEAM_B_ENROLL_SECRET"
+  features:
+    enable_host_users: true
+    enable_software_inventory: true
+software:
